@@ -1,0 +1,99 @@
+#lang racket
+(require data/heap)
+
+; structs
+
+(define s-heap (make-heap (lambda(x y) (<= (car x) (car y)))))
+
+(struct wire ([val #:mutable] [actions #:mutable] [simul]) )
+(struct sim  ([t #:mutable]  [events #:mutable]))
+
+
+; sims
+
+(define (make-sim) (sim 0 s-heap))
+
+(define (sim-time s)
+  (sim-t s))
+
+(define (sim-add-action! simul time foo)
+  (heap-add! (sim-events simul) (cons time foo)))
+
+(define (wait-temp s t)
+  (let ([ev (sim-events)])
+    (if (< t (heap-min ev))
+        (void)
+        (begin
+          ((cdr (heap-min ev)))
+          (heap-remove-min! ev)
+          (wait-temp s t)))))
+
+
+(define (sim-wait! s t)
+  (begin
+    (set-sim-t! s (+ t (sim-time s)))
+    (wait-temp s (sim-time s))))
+
+
+; wires
+
+(define (make-wire simul)
+  (wire #f '() simul))
+
+(define (wire-value w)
+  (wire-val w))
+
+(define (set-temp acts)
+  (if (not (empty? acts))
+      (begin
+        ((car (acts)))
+        (set-temp (cdr acts)))
+      (void)))
+
+
+(define (wire-set! w bool)
+  (if
+   (not (eq? (wire-value w) bool))
+   (set-temp (wire-actions w))
+   (void)))
+
+(define (wire-on-change! w foo)
+  (begin
+    (foo)
+    (set-wire-actions! w (cons (wire-actions w) foo)))) ; to zmienic?
+
+
+(define (gate-not we wy)
+  (define (not-action)
+    (sim-add-action!
+       (wire-simul we)
+       (+ 1 (sim-t (wire-simul we)))
+       (lambda() (
+
+
+  (sim-add-action! (wire-simul we) (+ 1 (sim-t (wire-simul we))) not-action)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
