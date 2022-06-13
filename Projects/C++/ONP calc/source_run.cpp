@@ -22,8 +22,6 @@ queue<string> rozdziel(string s){
     return res;
 }
 
-
-
 bool is_double(const string& s)
 {
     try
@@ -37,6 +35,7 @@ bool is_double(const string& s)
     return true;
 }
 
+
 bool in_vector(vector<string> vec, string comp_s){
     for (string vec_s : vec){
         if(vec_s == comp_s){
@@ -46,13 +45,15 @@ bool in_vector(vector<string> vec, string comp_s){
     return false;
 }
 
+
+
+
 int evaluate(queue<Symbol> unev_vals){
-    int res = 0;
     stack<Symbol> elem_stack;
-    string var_type;
+    string var_type, foo_name;
     Symbol value, right, left;
 
-    while (!unev_vals.empty()){
+    while (unev_vals.size() != 1){
         value = unev_vals.front();
         var_type = value.type();
 
@@ -61,19 +62,20 @@ int evaluate(queue<Symbol> unev_vals){
             continue;
         }
         else{
-            right = elem_stack.top();
             left = elem_stack.top();
+            right = elem_stack.top();
             elem_stack.pop();
             elem_stack.pop();
-
-
+            foo_name = value.get_name();
+            if (value.get_arity() == true){
+                elem_stack.push(Operand(uf[value.get_index()](left))); // push to stack evaluated function with left argument
+                continue;
+            } 
+            elem_stack.push(Operand(bf[value.get_index()](left, right))); // push to stack bin foo
         }
-
-
-
     }
     
-    return 0;
+    return elem_stack.top().get_val();
 }
 
 

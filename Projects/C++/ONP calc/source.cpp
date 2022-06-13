@@ -4,8 +4,6 @@
 #include <iostream>
 #include <math.h>
 
-typedef double (*UnFoo)(double v);
-typedef double (*BinFoo)(double v1, double v2);
 
 using namespace std;
 
@@ -36,23 +34,22 @@ Zmienna::Zmienna(string s){
     z_name = s;
 }
 
-
-// construct type of foo
 Funkcja::Funkcja(string s){
     sym_type = "Funkcja";
-    //BinFoo bf[] = {add, sub, mul, div, mod};            
-    string bnames[] = {"+", "-", "*", "/", "%"};
-    //UnFoo uf[]  = {abs, floor, cos, sin, atan, exp};    
-    string unames[] = {"abs", "floor", "cos", "sin", "atan", "exp"};
 
     for (int i = 0; i < 5; i++){
-        if (bnames[i] == s){
+        if (bnames[i] == s){ // array with binary foos
+            unary = false;
+            foo_name = bnames[i];
+            foo_index = i;
             return;
         }
     }
-    for (int i = 0; i < 6; i++){
+    for (int i = 0; i < 6; i++){ // array with unary foos
         if (unames[i] == s){
             unary = true;
+            foo_name = unames[i];
+            foo_index = i;
             return;
         }
     }
@@ -62,6 +59,9 @@ Funkcja::Funkcja(string s){
 
 
 
+string Funkcja::type(){
+    return sym_type;
+}
 
 string Stala::type(){
     return sym_type;
@@ -75,9 +75,7 @@ string Operand::type(){
     return sym_type;
 }
 
-string Funkcja::type(){
-    return sym_type;
-}
+
 
 string Symbol::type(){
     return sym_type;

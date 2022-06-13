@@ -3,6 +3,16 @@
 #include <vector>
 
 
+typedef double (*UnFoo)(double v);
+typedef double (*BinFoo)(double v1, double v2);
+
+
+
+BinFoo bf[] = {add, sub, mul, div, mod};            
+string bnames[] = {"+", "-", "*", "/", "%"};
+UnFoo uf[]  = {abs, floor, cos, sin, atan, exp};    
+string unames[] = {"abs", "floor", "cos", "sin", "atan", "exp"};
+
 
 class Symbol{
     private:
@@ -12,6 +22,9 @@ class Symbol{
         Symbol();
         virtual std::string type();
         virtual double get_val();
+        virtual std::string get_name();
+        virtual bool get_arity();
+        virtual int get_index();
 };
 
 class Stala : public Symbol{
@@ -45,31 +58,19 @@ class Zmienna : public Symbol {
 
 };
 
-
 class Funkcja : public Symbol{
     private:
-        bool unary = false;
+        std::string foo_name;
         std::string sym_type;
+        bool unary = false;
+        int foo_index;
     public:
-        Funkcja(std::string s);
+        Funkcja::Funkcja(std::string);
         std::string type() override;
-
+        std::string get_name() override  {return foo_name;}
+        bool get_arity() override {return unary;}
+        int get_index() override {return foo_index;}
 };
-
-class Binarna : public Funkcja{
-    private:
-        double (*bin_name)(double, double);
-    public:
-        auto get_foo();
-};
-
-class Unarna : public Funkcja{
-    private:
-        double (*un_name)(double);
-    public:
-         auto get_foo();
-};
-
 
 
 
