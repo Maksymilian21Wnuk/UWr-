@@ -1,0 +1,2 @@
+sudo chmod +x name.cs
+mcs -out:new_name.exe name.cs
