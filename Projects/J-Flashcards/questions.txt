@@ -1,0 +1,11 @@
+1 2 cat koń kot pies
+2 1 damage obrażenia obrazić urazić 
+3 2 Katze der die das
+4 1 knife noz pieniadze slon
+5 3 pizza pizza hamburger ananas
+6 2 2 uno dos tres
+3 2 stół bench table chair
+8 2 obraz paint painting painter
+8 3 talerz fork shield plate
+10 3 klawiatura board writeboard keyboard
+4 1 gra game sd df

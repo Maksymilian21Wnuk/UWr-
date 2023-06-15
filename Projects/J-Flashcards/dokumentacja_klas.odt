@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><dc:date>2023-06-15T16:02:30.521519751</dc:date><meta:editing-duration>PT56M43S</meta:editing-duration><meta:editing-cycles>27</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="4" meta:paragraph-count="75" meta:word-count="799" meta:character-count="5752" meta:non-whitespace-character-count="5022"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">25</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">44427</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">20687</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">20040</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">41797</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">25</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">44425</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">20710</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">110</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1550470</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">1314005</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;"/>
+  <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Serif CJK SC" svg:font-family="&apos;Noto Serif CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol" style:font-charset="x-symbol"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.4925in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" style:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Bullet_20_Symbols" style:display-name="Bullet Symbols" style:family="text">
+   <style:text-properties style:font-name="OpenSymbol" fo:font-family="OpenSymbol" style:font-charset="x-symbol" style:font-name-asian="OpenSymbol" style:font-family-asian="OpenSymbol" style:font-charset-asian="x-symbol" style:font-name-complex="OpenSymbol" style:font-family-complex="OpenSymbol" style:font-charset-complex="x-symbol"/>
+  </style:style>
+  <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" loext:num-list-format="%2%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" loext:num-list-format="%3%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" loext:num-list-format="%4%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" loext:num-list-format="%5%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" loext:num-list-format="%6%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" loext:num-list-format="%7%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" loext:num-list-format="%8%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" loext:num-list-format="%9%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" loext:num-list-format="%10%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0014b2ca" officeooo:paragraph-rsid="0014b2ca" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00140cd5"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L9">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" officeooo:paragraph-rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0014b2ca" officeooo:paragraph-rsid="0014b2ca" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0014b2ca" officeooo:paragraph-rsid="0014b2ca" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L9">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0014b2ca" officeooo:paragraph-rsid="0014b2ca" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L10">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0014b2ca" officeooo:paragraph-rsid="0014b2ca" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L11">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="0014b2ca" officeooo:paragraph-rsid="0014b2ca" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:font-size="14pt" officeooo:rsid="00140cd5" style:font-size-asian="12.25pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold" style:font-size-asian="14pt" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties officeooo:rsid="0014b2ca"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties officeooo:rsid="0015b1ca"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L3">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L4">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L5">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L6">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L7">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L8">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5484in" fo:text-indent="-0.25in" fo:margin-left="0.5484in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.7984in" fo:text-indent="-0.25in" fo:margin-left="0.7984in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.0484in" fo:text-indent="-0.25in" fo:margin-left="1.0484in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.2984in" fo:text-indent="-0.25in" fo:margin-left="1.2984in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5484in" fo:text-indent="-0.25in" fo:margin-left="1.5484in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.7984in" fo:text-indent="-0.25in" fo:margin-left="1.7984in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.0484in" fo:text-indent="-0.25in" fo:margin-left="2.0484in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.2984in" fo:text-indent="-0.25in" fo:margin-left="2.2984in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5484in" fo:text-indent="-0.25in" fo:margin-left="2.5484in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.7984in" fo:text-indent="-0.25in" fo:margin-left="2.7984in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L9">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L10">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L11">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1in" fo:text-indent="-0.25in" fo:margin-left="1in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2in" fo:text-indent="-0.25in" fo:margin-left="2in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="8.2681in" fo:page-height="11.6929in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in" loext:margin-gutter="0in">
+    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P1"><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/>Maksymilian <text:span text:style-name="T5">W</text:span>nuk</text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P1"><text:span text:style-name="T3">Dokumentacja klas programu J-Flashcards</text:span><text:tab/><text:tab/></text:p>
+   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P2">Spis klas:</text:p>
+   <text:list xml:id="list2391452616" text:style-name="L1">
+    <text:list-item>
+     <text:p text:style-name="P5">Answer_set</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Answer</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Button</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Button_set</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Co<text:span text:style-name="T4">nstants</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P13">Comps</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Frame</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Frame_states</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P5">Program</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P3">Aby uruchomić program zachęcam do korzystania z napisanego przez mnie skryptu Makefile. <text:span text:style-name="T5">W</text:span>ystarczy skorzystać w linuksowym terminalu z <text:span text:style-name="T5">polecenia</text:span> make. <text:span text:style-name="T5">U</text:span>ruchomi ona program, <text:span text:style-name="T5">zaś po </text:span>skończeniu usunie niepotrzebne pliki z systemu.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2">1) Answer_set – klasa zawierająca zbiór obiektów typu Answer. Posiada jedno pole ans_list, które zawiera odczytane z pliku question.txt linie.</text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2">Metody:</text:p>
+   <text:list xml:id="list1567707413" text:style-name="L2">
+    <text:list-item>
+     <text:p text:style-name="P6">Answer get_random_answer() - zwraca losowo wybraną odpowiedź ze zbioru linii pliku a następnie usuwa ją ze zbioru ans_list, w celu nie powtarzania się odpowiedzi</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P6">void append_answer(String ans) – dodaje do pliku odpowiedzi wraz z pytaniem</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P6">int int answer_count() - zwraca ilość odpowiedzi w pliku.</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2">2) Answer – klasa będąca logiczną implementacją danych w grze, prezentowanych w pliku jako linie, każda linia konwertowana jest na “odpowiedź”. Zawiera ona 3 pola klasy:</text:p>
+   <text:list xml:id="list1526534429" text:style-name="L3">
+    <text:list-item>
+     <text:p text:style-name="P7">int correct_num – numer oznaczający poprawną odpowiedź</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P7">String question – łańcuch znakowy będący zapytaniem dla użytkownika</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P7">String[] answers – trzy odpowiedzi z których użytkownik może wybrać jedną</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2">Metody:</text:p>
+   <text:list xml:id="list2150702805" text:style-name="L4">
+    <text:list-item>
+     <text:p text:style-name="P8">String get_question() - zwraca zapytanie odpowiedzi</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P8">String get_answer(int which) – zwraca odpowiedź dla which = 0,1,2</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P8">String get_correct() - zwraca na podstawie int correct_num poprawną odpowiedź </text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2">3) Button – implementacja interfejsu Ibutton, zawiera pole typu Jbutton b, ma na celu późniejsze ułatwienie implementacji poszczególnych przycisków, metody:</text:p>
+   <text:list xml:id="list1408361789" text:style-name="L5">
+    <text:list-item>
+     <text:p text:style-name="P9">Button(int b1, int b2, int b3, int b4, String name) – tworzy przycisk o nazwie name, szerokości b4, długości b3 we współrzędnej w układzie kartezjańskim: x = b1 y = b2</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P9">Jbutton get_button() - zwraca przycisk typu Jbutton</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P9">void hide_button() - ukrywa z planszy przycisk</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P9">void show_button() - pokazuje na planszy przycisk</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P3">4) Button_set – klasa implementująca przyciski na podstawie dziedziczenia klasy Button oraz implementacji klasy ActionListener z zaimportowanego narzędzia java.awt.event.ActionListener. <text:span text:style-name="T5">I</text:span>mplementacja jest niezbędna do wykonania akcji w trakcie naciśnięcia przycisku przez użytkownika.</text:p>
+   <text:p text:style-name="P3">Opis klas zagnieżdżonych w tejże klasie:</text:p>
+   <text:list xml:id="list1943627993" text:style-name="L6">
+    <text:list-item>
+     <text:p text:style-name="P14">Exit_button – klasa odpowiadająca za wyjście z programu</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Start_button – klasa odpowiadająca za rozpoczęcie gry</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Admin_button – klasa odpowiadająca za wejście do panelu logowania administratora</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Menu_button – klasa odpowiadająca za powrót do menu startowego aplikacji</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Proceed_button – klasa odpowiadająca za sprawdzenie, czy hasło wpisane w polu hasła administratora jest poprawne, jeśli tak, to pozwala użytkownikowi na wejście do panelu administratora, w przeciwnym wypadku wyświetla stosowny komunikat o niepoprawnym haśle</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Done_button – przycisk odpowiedzialny za dopisanie do zbioru tekstowego plansz kolejnej planszy, tylko używane w panelu administratora</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Choice_button – przycisk odpowiedzialny za wybranie poprawnej odpowiedzi w panelu administratora</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Game_button – przycisk służący za wybranie poprawnej odpowiedzi przez użytkownika w trakcie gry, jeżeli wybrał dobrze, jest to sygnalizowane stosownym komunikatem</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P14">Next – przycisk służący do przejścia do następnej planszy</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:span text:style-name="T4">5</text:span>) Constants – klasa pomocnicza zawierająca następujące stałe statyczne:</text:p>
+   <text:list xml:id="list2672606616" text:style-name="L7">
+    <text:list-item>
+     <text:p text:style-name="P10">String WINDOW_NAME – nazwa okna przy uruchomieniu programu</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P10">int[] winsize – dwuelementowa tablica która zawiera wymiary okna programu</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P10">String TXT_PATH – ścieżka do pliku question.txt</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P10">String file_name – nazwa pliku z zapytaniami (zawsze będzie to question.txt)</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P10">String paswd – hasło do panelu kontrolnego administratora (zawsze będzie to admin)</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P2"><text:span text:style-name="T4">6</text:span>) Comps – klasa zawierająca informacje czy plansza została wygenerowana oraz listy komponentów do plansz. Jeżeli plansza została niewygenerowana, trzeba uzupełnić listy komponentów, jeżeli zaś została wygenerowana I chcemy przejść do tej planszy, to taka lista komponentów znacznie ułatwia zadanie, wystarczy wtedy ustawić komponenty na widoczne.</text:p>
+   <text:p text:style-name="P2">Pola tej klasy informujące o wygenerowaniu planszy (typu boolean):</text:p>
+   <text:list xml:id="list2074543045" text:style-name="L8">
+    <text:list-item>
+     <text:p text:style-name="P11">admin_login_rendered</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P11">admin_panel_rendered</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P11">game_rendered</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P2">Pola tej klasy zawierające komponenty:</text:p>
+   <text:list xml:id="list1129410587" text:style-name="L9">
+    <text:list-item>
+     <text:p text:style-name="P12">Button b_exit – <text:span text:style-name="T4">przycisk służący do wychodzenia z programu</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P12">Button b_menu – <text:span text:style-name="T4">przycisk powracający do menu głównego</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P12">List&lt;Button&gt; s_buttons – startowe przyciski</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P12">List&lt;Components&gt; admin_login – przyciski w panelu logowani<text:span text:style-name="T4">a</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P15">List&lt;Components&gt; admin_panel – zbiór przycisków w panelu administratora</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3">7) Frame – klasa opisująca okno programu</text:p>
+   <text:p text:style-name="P3">Pole klasy Jframe służy głównie do manipulacji różnymi parametrami.</text:p>
+   <text:p text:style-name="P3">Metody:</text:p>
+   <text:list xml:id="list992402188" text:style-name="L10">
+    <text:list-item>
+     <text:p text:style-name="P16">void Add_Button(Button b) – dodaje do okna przycisk b</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P16">void Add_Comp(Component c) – dodaje komponent c, różnica jedynie taka, że Button jest pochodną typu Component, metoda jest ułatwieniem dla późniejszej implementacji</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P16">void Refresh_screen() - istotna dla działania ogółu programu metoda, odświeża okno w celu “pokazania” na nim komponentów, bez tej metody byłyby one niewidoczne</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3">8) Frame_states – klasa opisująca stany w jakim jest obecnie okno, manipuluje głównie polem statycznym Frame main_frame</text:p>
+   <text:p text:style-name="P3">Metody:</text:p>
+   <text:list xml:id="list3604632852" text:style-name="L11">
+    <text:list-item>
+     <text:p text:style-name="P17">void Show_exit() , void Show_menu() - pokazuje w oknie przycisk wyjścia lub menu</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P17">void Startup() – inicjuje okno startowe wraz z przyciskami</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P17">void Admin_password() <text:s/>- stan okna w którym użytkownik ma zamiar zalogować się do panelu administratora</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P17">void Admin_panel() - stan okna w którym użytkownik z powodzeniem dostał się do panelu administratora I umożliwia mu wykonanie akcji dodania plansz do gry</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P17">void Render_is_correct() - pomocnicza metoda, mająca w zamiarze wyświetlić <text:soft-page-break/>informację, czy gracz poprawnie odpowiedział na pytanie</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P17">void Game() - okno w stanie gry, gdzie użytkownik ma połączyć zapytanie z poprawną odpowiedzią</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3">9) Program – klasa z metodą statyczną main, uruchamiająca niezbędne do rozpoczęcia gry komponenty.</text:p>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3"><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/>Maksymilian Wnuk</text:p>
+  </office:text>
+ </office:body>
+</office:document>
