@@ -1,10 +1,12 @@
 {
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "./src/declarations.d.tsx"
     ],
     "compilerOptions": {
         "strict": true,
         "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "lib": [
             "dom",
             "es2015"
