@@ -1,0 +1,17 @@
+#!/bin/bash
+
+path=/proc/sys/kernel/random
+
+
+while : 
+do
+    avail=$(cat "$path/entropy_avail")
+    pool=$(cat "$path/poolsize")
+    printf "%s / %s\r" "$avail" "$pool"
+    sleep 1
+    sleep 1
+
+done
+
+
+

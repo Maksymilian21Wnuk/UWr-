@@ -1,0 +1,86 @@
+body {
+  background-color: bisque;
+  padding: 1rem;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app_header {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container {
+  width: 300px;
+  margin: 50px auto;
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container ul {
+  padding: 0;
+}
+
+.todo-container li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to the beginning and end */
+  margin-bottom: 10px;
+}
+
+.todo-container input[type="checkbox"] {
+  margin-left: 10px; /* Add some spacing between the text and the checkbox */
+}
+.app_info {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.rm_button {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rm_button button {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 50%;
+}
+
+.rm_button:hover {
+  background-color: darkred;
+}
+
+.filter_done {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.filter_done button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter_done button:hover {
+  background-color: #45a049;
+}
