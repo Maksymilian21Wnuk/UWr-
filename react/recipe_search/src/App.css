@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  background-color: #ffcccc; /* Pink background color */
+
+}
+
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Adjust color as desired */
+  text-align: center; /* Align text to center */
+  text-transform: uppercase; /* Uppercase text */
+  margin: 20px 0; /* Add some margin for spacing */
+}
+

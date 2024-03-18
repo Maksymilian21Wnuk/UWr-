@@ -1,0 +1,26 @@
+#!/bin/bash
+
+IFS=$'\n'
+
+mp3files=$(find . -type f -name '*.mp3')
+
+mp3array=()
+mp3mappings=("placeholder")
+
+index=1
+
+for file in $mp3files; do
+    mp3info_output=$(mp3info -p "%a (%l) %t" "$file")
+    mp3array+=("$index" "$mp3info_output" off)
+    mp3mappings+=("$file")
+    ((index++))
+done
+
+res=$(dialog --stdout --title "Player" --radiolist "Choose MP3 files" 0 0 0 "${mp3array[@]}")
+
+if [ -z "$res" ]; then
+    echo "No MP3 file selected."
+else
+    mplayer "${mp3mappings[$res]}"
+
+fi

@@ -5,6 +5,9 @@
 #include <sys/wait.h>
 #include "my_shell.h"
 
+#define DBG printf("asdf\n");
+
+#define MAX_TOKENS 20
 
 
 void tokenize(char *line, char ***tokens){
@@ -13,17 +16,13 @@ void tokenize(char *line, char ***tokens){
     int token_count = 0;
         
     while(token != NULL){
-         (*tokens)[token_count] = strdup(token);
-         token_count++;
-         token = strtok(NULL, " ");
+        (*tokens)[token_count] = strdup(token);
+        token_count++;
+        token = strtok(NULL, " ");
     }
+    (*tokens)[token_count+1] = NULL;
 }
 
-int make_process(char **tokens){
-    int exit_code = -1;
-
-    return exit_code;
-}
 
 int lsh_launch(char **args)
 {
@@ -53,17 +52,20 @@ int lsh_launch(char **args)
 
 int main(int argc, char **argv){
     printf("%d\n", argc);
-    
+
     char *line = NULL;
     size_t len = 0;
     ssize_t nread;
     while ((nread = getline(&line, &len, stdin)) != -1){
-        char **tokens = malloc(sizeof(char*) * 20); 
+        char **tokens = malloc(sizeof(char*) * MAX_TOKENS); 
         tokenize(line, &tokens);
 
         lsh_launch(tokens);        
 
-        free(tokens);
+        for (int i = 0; tokens[i] != NULL; i++){
+            free(tokens[i]);
+        }
+
     }
 
     free(line);

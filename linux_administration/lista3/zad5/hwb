@@ -1,0 +1,84 @@
+#!/bin/bash
+
+capitalize=false
+color="auto"
+greeting="Hello"
+
+print_help() {
+    echo "Usage: $0 [OPTIONS]"
+    echo "Options:"
+    echo "  -c, --capitalize             Capitalize name or 'world'"
+    echo "  --color=[never|auto|always]  Colorize names"
+    echo "  -g text, --greeting=text     Replace 'Hello' with given text"
+    echo "  -h, --help                   Show this help message"
+    echo "  -v, --version                Show program version"
+    echo "  -w, --world                  Print 'Hello, world!'"
+}
+
+print_version() {
+    echo "hwb version 1.0.0"
+}
+
+shortarg="cg:hvw"
+longarg="capitalize,color:,greeting:,help,version,world"
+
+OPTS=$(getopt --options $shortarg --long $longarg -- "$@")
+
+# display help if smth wrong
+if [ $? != 0 ]; then
+    print_help
+    exit 1
+fi
+
+eval set -- "$OPTS"
+
+while true; do
+    case "$1" in
+        -c|--capitalize)
+            capitalize=true
+            shift
+            ;;
+        --color)
+            case "$2" in
+                never|auto|always)
+                    color="$2"
+                    shift 2
+                    ;;
+                *)
+                    echo "Invalid color argument, choose [never|auto|always]"
+                    exit 1
+                    ;;
+            esac
+            ;;
+        -g|--greeting)
+            greeting="$2"
+            shift 2
+            ;;
+        -h|--help)
+            print_help
+            exit 0
+            ;;
+        -v|--version)
+            print_version
+            exit 0
+            ;;
+        -w|--world)
+            echo "$greeting, world!"
+            shift
+            ;;
+        --)
+            shift
+            break
+            ;;
+    esac
+done
+
+# Print greetings for each name
+for arg; do
+    if [ "$capitalize" = true ]; then
+        arg=$(echo "${arg^^}")
+    fi
+    
+    echo "$greeting, $arg!"
+done
+

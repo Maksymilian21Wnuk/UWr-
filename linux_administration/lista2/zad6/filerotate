@@ -1,0 +1,50 @@
+#!/bin/bash
+
+
+# show oldest files that could be removed
+# so that remaining sum of files in dir
+# is less or equal than byte_num after removing
+# those
+
+path=$1
+byte_num=$2
+
+if [ -z "$path" ] || [ -z "$byte_num" ]; then 
+    echo "Usage: ./filerotate [path to directory] [byte_count]" >&2
+    exit
+fi
+
+if [ $byte_num -lt 0 ];then
+    echo "Bytes num must be non-negative int" > /dev/stderr
+    exit
+fi
+
+
+# gets total size of folder
+total=$(du -shb "$path" | awk '{print $1+0}')
+
+# prints files oldest to newest order
+
+files=$(find $path -maxdepth 1 -printf '%T+ %p\n' | tail -n +2 | sort | cut -d' ' -f2-)
+
+echo "Whole size of files: $total"
+
+IFS=$'\n'
+while read -r file 
+do
+    if [ $total -le $byte_num ]
+    then
+        break
+    fi
+    
+    file_path="$file"
+
+    size_file=$(du -shb $file_path | awk '{print $1}')
+    total=$(($total - $size_file))
+    echo "$file with size: $size_file"
+
+
+done <<< $files
+
+
+

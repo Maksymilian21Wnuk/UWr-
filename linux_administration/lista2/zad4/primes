@@ -1,0 +1,43 @@
+#!/bin/bash
+
+
+
+
+if [ -z $1 ];then
+    echo "Empty argument, usage: ./primes [MAX_PRIME]"
+    exit
+fi
+
+
+primes_arr=(2)
+MAX=$1
+i=1
+n=3
+next=0
+
+while [ $n -le $MAX ];do
+    j=0
+    while (( ${primes_arr[j]} * ${primes_arr[j]} <= $n )); do
+        if (( $n % ${primes_arr[j]} == 0));then
+            next=1
+            break      
+        fi
+        ((j++))
+    done
+        
+    if (($next == 0));then
+        primes_arr+=($n)
+        ((i++))
+    fi
+
+    ((n++))
+
+    next=0
+done
+
+for idx in $(eval echo {0..$i});do
+    echo ${primes_arr[$idx]}
+done
+
+
+

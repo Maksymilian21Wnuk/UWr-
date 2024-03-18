@@ -1,0 +1,43 @@
+#!/bin/bash
+
+IFS=$'\n'
+
+# find mp3 files using find
+mp3files=$(find . -type f -name '*.mp3')
+
+mp3array=()
+
+#indexed from one
+mp3mappings=("placeholder")
+
+for file in $mp3files;do
+    mp3array+=($(mp3info -p "%a (%l) %t" $file)) 
+    mp3mappings+=($file)
+done
+
+
+# prompt select
+
+
+PS3="Choose a number to play>"
+select file in "${mp3array[@]}"; do
+
+    # handle non integers
+    if ! [[ $REPLY =~ ^[0-9]+$  ]];then
+        echo "Wrong option. Integers only"
+    
+    # handle numbers over range
+    elif !  [ "$REPLY" -gt 0 ] ||  ! [ "$REPLY" -le "${#mp3array[@]}" ]; then
+        echo "Wrong option. Please select a number between 1 and ${#mp3array[@]}"
+
+    # else play
+    else
+        echo ${mp3mappings[$REPLY]}
+        echo -e "Playing: $file\n"
+        mplayer ${mp3mappings[$REPLY]}
+        continue 
+    fi
+done
+
+
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+SUMSIZE=0
+
+for f in "$@"
+do
+    # echo $f
+    SUMSIZE=$(($SUMSIZE + $(du $f | awk '{print $1}')))
+done
+
+echo "Required space $SUMSIZE"
+
+df -T | awk -v sum="$SUMSIZE" '$5 >= sum {
+    printf("%20s\t %10s\t %10s\t %15s \n",$1,$2,$5,$7)
+}' 
+
