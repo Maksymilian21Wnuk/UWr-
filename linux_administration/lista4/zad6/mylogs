@@ -1,0 +1,14 @@
+#!/bin/bash
+
+FIFO_FILE="/tmp/mylog.fifo"
+
+if [ ! -p "$FIFO_FILE" ]; then
+    mkfifo "$FIFO_FILE"
+fi
+
+while true; do
+    if read line < "$FIFO_FILE"; then
+        echo "$(date +'%Y-%m-%d %H:%M:%S') $line"
+    fi
+done
+

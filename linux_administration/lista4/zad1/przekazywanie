@@ -1,0 +1,3 @@
+exec 3<wielowierszowy.txt
+./czytaj 1 <&3 &
+./czytaj 1 <&3 &

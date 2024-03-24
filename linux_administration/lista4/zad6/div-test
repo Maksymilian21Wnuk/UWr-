@@ -1,0 +1,30 @@
+#!/bin/bash
+
+fifo_path=/tmp/mylog.fifo
+
+# Sprawdzenie czy podano dwa argumenty
+if [ $# -ne 2 ]; then
+    echo "Usage: $0 <number1> <number2>"
+    echo "User did not provide two numbers" > $fifo_path
+    exit 1
+fi
+
+# Przypisanie argumentów do zmiennych a i b
+a=$1
+b=$2
+
+# Sprawdzenie czy drugi argument nie jest równy zero
+if [ $b -eq 0 ]; then
+    echo "Error: Division by zero is not allowed."
+    echo "User divided by zero" > $fifo_path
+    exit 1
+fi
+
+# Wykonanie dzielenia
+res=$((a / b))
+
+echo "Program executed successfully" > $fifo_path
+
+# Wyświetlenie wyniku z podwójnymi cudzysłowami
+echo "$res"
+
