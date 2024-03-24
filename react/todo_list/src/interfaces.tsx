@@ -10,7 +10,8 @@ export interface TodosList {
   setTodoThings: React.Dispatch<React.SetStateAction<Todo[]>>;
 }
 
-export interface Backup {
-  backup: Todo[];
-  setBackup: React.Dispatch<React.SetStateAction<Todo[]>>;
+export interface TodosListCheck {
+  todoThings: Todo[];
+  setTodoThings: React.Dispatch<React.SetStateAction<Todo[]>>;
+  checked: boolean;
 }

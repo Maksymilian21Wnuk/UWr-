@@ -2,14 +2,20 @@
 
 path=/proc/sys/kernel/random
 
+#echo "Press any key to exit program..."
 
-while : 
+while :
 do
     avail=$(cat "$path/entropy_avail")
     pool=$(cat "$path/poolsize")
     printf "%s / %s\r" "$avail" "$pool"
-    sleep 1
-    sleep 1
+    # use read 1 as one second delay
+    read -s -r -n 1 -t 1 key
+    if [ -n "$key" ] 
+    then
+        break
+    fi
+    
 
 done
 

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+IFS=$'\n'
+
+mp3files=$(find . -type f -name '*.mp3')
+
+mp3array=()
+mp3mappings=("placeholder")
+
+index=1
+
+for file in $mp3files; do
+    mp3info_output=$(mp3info -p "%a (%l) %t" "$file")
+    mp3array+=("$index" "$mp3info_output")
+    mp3mappings+=("$file")
+    ((index++))
+done
+
+res=$(zenity --list --radiolist  --title="Player" --text="Choose MP3 files" --column="Select" --column="MP3 Info" --width=600 --height=400 "${mp3array[@]}")
+
+echo $res
+

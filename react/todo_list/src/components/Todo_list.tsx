@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../styles.css";
 import { Todo, TodosList } from "../interfaces";
-import FilterDone from "./Filter";
 import Todos from "./Todos";
 
 export function AddTodo({ todoThings, setTodoThings }: TodosList) {
   const [newTask, setNewTask] = useState<string>("");
+  const [checked, setChecked] = useState(false);
 
   const addTodo = () => {
     if (newTask.trim() !== "") {
@@ -15,10 +15,22 @@ export function AddTodo({ todoThings, setTodoThings }: TodosList) {
     }
   };
 
+  const applyChecked = () => {
+    if (!checked) {
+      setChecked(true);
+    } else {
+      setChecked(false);
+    }
+  };
+
   return (
     <main>
       <div className="todo-container">
-        <Todos todoThings={todoThings} setTodoThings={setTodoThings} />
+        <Todos
+          todoThings={todoThings}
+          setTodoThings={setTodoThings}
+          checked={checked}
+        />
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -35,7 +47,9 @@ export function AddTodo({ todoThings, setTodoThings }: TodosList) {
           </button>
         </form>
       </div>
-      <FilterDone todoThings={todoThings} setTodoThings={setTodoThings} />
+      <div className="filter_done">
+        <button onClick={applyChecked}>Show only checked todos</button>
+      </div>
     </main>
   );
 }

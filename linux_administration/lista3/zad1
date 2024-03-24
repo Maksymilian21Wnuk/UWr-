@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+# a) po rozwinieciach zmiennych
+
+path=~/Desktop
+echo $path
+
+# b) po podstawieniach instrukcji res nie ma sensu jako ls,
+# chcemy mieć wykonanie instrukcji ls
+
+res=$(ls)
+echo $res
+
+
+# c) rozwinięcia instrukcji po rozwinięciach zmiennych
+
+res=$(ls $path)
+echo $res
+

@@ -1,0 +1,39 @@
+.\" Manpage for hwb 
+
+.TH man 1 "17 Mar 2024" "1.0" "hwb man page"
+
+.SH NAME
+hwb - hello world manipulation program
+
+.SH SYNOPSIS
+hwb [-c --capitalize] 
+.br
+hwb [--color=[never|auto|always]]   
+.br
+hwb [-g text --greeting=text]
+.br
+hwb [-h --help]
+.br
+hwb [-v --version]
+.br
+hwb [-w --world]
+
+.SH DESCRIPTION
+hwb is simple program for manipulating hello world,it takes
+names as arguments and sequentially echoes those names with 
+hello [name] !
+
+.SH OPTIONS
+
+.SH EXIT STATUS
+0 - success
+.br
+1 - failed, wrong arguments provided
+
+.SH EXAMPLE
+hwb -cg Hi Joe John Jonas
+will print 3 times Hi with each of given names
+.SH AUTHORS
+Maksymilian Wnuk 2024
+.SH SEE ALSO
+

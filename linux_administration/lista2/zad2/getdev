@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+
+path=/etc/fstab
+mount_point=$1
+
+IFS=$"\n"
+
+line=$(cat $path | grep -w $mount_point | tail +2 | sed 's/\'$mount_point'//g')
+
+IFS=$' '
+
+info_arr=("Device: " "Filesystem type: " "Mount options: " "Dump frequency: " "Fsck pass number: ")
+
+read -ra info2 <<< "$line"
+
+
+for idx in $(eval echo {0..$(( ${#info2[@]} - 1 ))})
+do
+    echo ${info_arr[$idx]} ${info2[$idx]}
+done
+
+
+

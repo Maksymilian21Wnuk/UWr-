@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "../styles.css";
-import { TodosList } from "../interfaces";
-import FilterDone from "./Filter";
+import { TodosListCheck } from "../interfaces";
 
-export default function Todos({ todoThings, setTodoThings }: TodosList) {
+export default function Todos({
+  todoThings,
+  setTodoThings,
+  checked,
+}: TodosListCheck) {
   const [input, setInput] = useState("");
   const [search, setSearch] = useState("");
 
@@ -29,7 +32,10 @@ export default function Todos({ todoThings, setTodoThings }: TodosList) {
       </form>
       <ul id="todo-list">
         {todoThings
-          .filter((todo) => todo.task.includes(search))
+          .filter(
+            (todo) =>
+              todo.task.includes(search) && (checked !== false || !todo.done)
+          )
           .map((todo, index) => (
             <main key={index}>
               <li>

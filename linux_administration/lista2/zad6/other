@@ -1,0 +1,9 @@
+#!/bin/bash
+CAPACITY=${1:-1000000}
+[ -z "$2" ] || cd "$2" || exit 1
+SUM=0
+/bin/ls -gGlt --time-style=+ | tail +2 | while read MODE LNK SIZE NAME; do
+	[ "${MODE:0:1}" = '-' ] && (( (SUM += SIZE) > CAPACITY )) || continue
+	echo "Delete $NAME"
+done
+
