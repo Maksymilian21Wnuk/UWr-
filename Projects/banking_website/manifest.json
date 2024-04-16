@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Bank Extension",
+  "version": "1.0",
+  "description": "Extension for banking purposes",
+  "action": {
+    "default_popup": "bank.html"
+  },
+  "background": {
+    "scripts": ["server.js"]  
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["make_sure.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Frontend</title>
+</head>
+<body>
+  <h1>Totally safe banking site</h1>
+  <form id="transferForm">
+    <label for="recipientName">Enter name of recipient:</label><br>
+    <input type="text" id="recipientName" name="recipientName"><br><br>
+    
+    <label for="recipientIBAN">Enter IBAN of recipient:</label><br>
+    <input type="text" id="recipientIBAN" name="recipientIBAN"><br><br>
+    
+    <label for="transferValue">Transfer value:</label><br>
+    <input type="number" id="transferValue" name="transferValue"><br><br>
+    
+    <label for="message">Enter your message:</label><br>
+    <input type="text" id="message" name="message"><br><br>
+    
+    <button id="btn_sub" type="submit">Accept</button>
+
+    <div id="sure"></div>
+  </form>
+  <script src="make_sure.js"></script>
+</body>
+</html>
